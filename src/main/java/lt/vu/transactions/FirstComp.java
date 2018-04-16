@@ -30,7 +30,7 @@ public class FirstComp {
     }
 
     //---------------------------------
-    //komentaras
+
     @Transactional(Transactional.TxType.REQUIRED)
     public String sayHello() {
         return toString() + " | " + new Date() + " | " + " Tx: " + tx.getTransactionKey() +
